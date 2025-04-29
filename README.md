@@ -43,15 +43,17 @@ Following are the major dependencies of the project:
    npm run install-all
   
 
-2. Create a file named ".env" inside the backend folder. Add data from .env.example file and substitute your credentials there.
+2. Create a `.env` file inside the `backend` folder using `.env.example` as reference, and add your credentials like:
+ MONGODB_URL=your-mongodb-connection-string
+   ACCESS_TOKEN_SECRET=your-secret-key
 
-3. Start the application
+5. Start the application
 
    
    npm run dev
   
 
-4. Go to http://localhost:3000
+6. Go to http://localhost:3000
 
 ## Backend API
 
